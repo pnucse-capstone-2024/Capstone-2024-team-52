@@ -31,15 +31,31 @@
 ![image](https://github.com/user-attachments/assets/1dfdb772-c269-4e30-973e-8e280d4160bd)
 
 #### 2.1. 사용 기술
-* wasm-micro-runtime - WAMR-2.1.2-37-g326eb5cd
-* glibc - 2.35 (Ubuntu GLIBC 2.35-0ubuntu3.8)
+* wasm-micro-runtime: WAMR-2.1.2-37-g326eb5cd
+* glibc: 2.35 (Ubuntu GLIBC 2.35-0ubuntu3.8)
 * CoreMark: 1.0
 * PolyBenchC: 4.2.1
 
 ### 3. 설치 및 사용 방법
-> 제품을 설치하기 위헤 필요한 소프트웨어 및 설치 방법을 작성하세요.
->
-> 제품을 설치하고 난 후, 실행 할 수 있는 방법을 작성하세요.
+* 레포지토리 클론
+  ```
+  git clone https://github.com/your-username/your-wamr-repository.git
+  cd your-wamr-repository
+  ```
+* 대상 운영 체제에 맞는 디렉토리로 이동
+  ```
+  cd wasm-micro-runtime/product-mini/platforms/YOUR_OS_DIRECTORY
+  ```
+* 프로젝트 빌드
+  ```
+  sudo cmake [OPTIONS]
+  sudo make
+  ```
+  `[OPTIONS]`를 필요한 빌드 옵션으로 변경하세요.
+* WASM 애플리케이션 실행
+  ```
+  sudo ./iwasm YOUR_WASM_FILE.wasm
+  ```
 
 ### 4. 소개 및 시연 영상
 > 프로젝트에 대한 소개와 시연 영상을 넣으세요.
@@ -47,7 +63,7 @@
 ### 5. 팀 소개
 | 이름     | 학과            | 학번        | 연락처            | 역할 분담                                    |
 |----------|-----------------|-------------|-------------------|----------------------------------------------|
-| 이름     | 정보컴퓨터공학부 | 202155603   | 216yoon@naver.com |                                              |
+| 정윤서   | 정보컴퓨터공학부 | 202155603   | 216yoon@naver.com |                                              |
 
 
 
