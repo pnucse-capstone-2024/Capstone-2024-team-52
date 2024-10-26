@@ -1,0 +1,3 @@
+/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/asmjit-populate.dir
+/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/edit_cache.dir
+/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/rebuild_cache.dir
