@@ -38,7 +38,7 @@
   ```
 
 ### 4. 소개 및 시연 영상
-[![2024년 전기 졸업과제 52 인디고블랙파스타](http://img/www.youtube.com/watch?v=6Noh7Ht3r2Y/0.jpg)](https://www.youtube.com/watch?v=6Noh7Ht3r2Y)
+[![2024년 전기 졸업과제 52 인디고블랙파스타](http://img.youtube.com/watch?v=6Noh7Ht3r2Y/0.jpg)](https://www.youtube.com/watch?v=6Noh7Ht3r2Y)
 
 ### 5. 팀 소개
 | 이름     | 학과            | 학번        | 연락처            | 역할 분담                                    |
