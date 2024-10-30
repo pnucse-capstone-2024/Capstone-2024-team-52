@@ -1,23 +1,3 @@
-## 3. 레파지토리 제출 
-
-- **`[주의]` 레파지토리 제출**은 해당 레파지토리의 ownership을 **학과 계정**으로 넘기는 것이므로 되돌릴 수 없습니다.
-- **레파지토리 제출** 전, 더 이상 수정 사항이 없는지 다시 한번 확인하세요.
-- github 레파지토리에서 Settings > General > Danger zone > Transfer 클릭
-  <img src="https://github.com/user-attachments/assets/cb2361d4-e07e-4b5d-9116-aa80dddd8a8b" alt="소유주 변경 경로" width="500" />
-  
-- [ Specify an organization or username ]에 'PNUCSE'를 입력하고 확인 메세지를 입력하세요.
-  <img src="https://github.com/user-attachments/assets/7c63955d-dcfe-4ac3-bdb6-7d2620575f3a" alt="소유주 변경" width="400" />
-
----
-
-
-
-
-## 4. README.md 가이드 라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 5가지 항목이외에 프로젝트의 이해를 돕기 위한 내용을 추가해도 됩니다.
-- SAMPLE_README.md 이 단순한 형태의 예제이니 참고하세요.
-
 ### 1. 프로젝트 소개
 #### 1.1. 배경 및 필요성
  웹어셈블리 (이하 Wasm)는 최신 웹 브라우저에서 실행할 수 있는 새로운 유형의 어셈블리 언어이다.[1] Wasm은 C, C++, Rust 다양한 언어를 컴파일하여 생성될 수 있으며, 다양한 런타임과 브라우저에서 실행된다. 다양한 언어로 작성한 코드를 번거로운 절차 없이도 한 번에 실행할 수 있고, 웹에 특화된 프로그래밍 언어 없이도 웹용 프로그램을 작성할 수 있는 편리성 때문에 Wasm을 사용하는 애플리케이션이 점차 많아지고 있다. 이러한 흐름에 따라 chrome, safari, edge 등 웹 브라우저에서도 점차 Wasm을 지원한다.
@@ -58,26 +38,9 @@
   ```
 
 ### 4. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
+[![2024년 전기 졸업과제 52 인디고블랙파스타](http://img.youtube.com/vi/6Noh7Ht3r2Y/0.jpg)](https://www.youtube.com/watch?v=6Noh7Ht3r2Y)
 
 ### 5. 팀 소개
 | 이름     | 학과            | 학번        | 연락처            | 역할 분담                                    |
 |----------|-----------------|-------------|-------------------|----------------------------------------------|
 | 정윤서   | 정보컴퓨터공학부 | 202155603   | 216yoon@naver.com | - V8 엔진에서의 pkey 할당 매커니즘 분석<br> - 메모리 권한 관리를 위한 알고리즘 삽입 지점 탐색<br> - Intel에서 미리 예약해서 사용하는 pkey 값 확인<br> - offset 값 랜덤으로 생성해서 더하는 코드 작성<br> - wamr Benchmark(CoreMark) 및 microbenchmark 수행 |
-
-
-
-
-### 5.8. 유튜브 영상 추가
-```markdown
-[![영상 이름](유튜브 영상 썸네일 URL)](유튜브 영상 URL)
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-```
-[![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://www.youtube.com/watch?v=zh_gQ_lmLqE)    
-
-- 이때 유튜브 영상 썸네일 URL은 유투브 영상 URL로부터 다음과 같이 얻을 수 있습니다.
-
-- `Youtube URL`: https://www.youtube.com/watch?v={동영상 ID}
-- `Youtube Thumbnail URL`: http://img.youtube.com/vi/{동영상 ID}/0.jpg 
-- 예를 들어, https://www.youtube.com/watch?v=zh_gQ_lmLqE 라고 하면 썸네일의 주소는 http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg 이다.
-
