@@ -8395,12 +8395,22 @@ jit_codegen_gen_native(JitCompContext *cc)
     if (prev_end_addr != 0
 		    && (((uintptr_t)(prev_end_addr) & ~4095) == ((uintptr_t)(prev_end_addr + code_size) & ~4095))) {
 	    stream = prev_end_addr;
-	    pkey_set(pkey, 0);
-	    //printf("pkey: %d\n", pkey);
+	    //pkey_set(pkey, 0);
+	   // printf("pkey: %d\n", pkey);
     }
     else {
 	    if (pkey != 0) pkey_set(pkey, PKEY_DISABLE_WRITE);
-	    //if (pkey != 0) memcpy((void *)((uintptr_t)stream & ~4095), "test...", 8);
+
+  	    /* BAE: try to write into 'stream' */
+	    /*
+    	    {
+                char msg[] = "[Success] trying to write into stream with memcpy...";
+                memcpy(stream, msg, strlen(msg) + 1);
+                printf("%s:\n", stream);
+    	    }
+	    /*
+    	    /* BAE: end */
+
 allocate:
 	    stream = (char *)jit_code_cache_alloc((uintptr_t)(code_size + 4095) & ~4095);
             if (!stream) {
@@ -8408,16 +8418,19 @@ allocate:
             	    goto fail;
 	    }
 	    if (((uintptr_t)stream & 0xfff) != 0) goto allocate;
+		if (pkey == pkey_gen((uintptr_t)stream & ~4095)) goto allocate;
 	    pkey = pkey_gen((uintptr_t)stream & ~4095);
 	    pkey_mprotect((void *)((uintptr_t)stream & ~4095), (uintptr_t)(code_size + 4095) & ~4095, PROT_READ | PROT_EXEC | PROT_WRITE, pkey);
-	    printf("pkey_mprotect: addr %p, size %p, pkey %d\n", (void *)((uintptr_t)stream & ~4095), (uintptr_t)(code_size + 4095) & ~4095, pkey);
+	    //printf("pkey_mprotect: addr %p, size %p, pkey %d\n", (void *)((uintptr_t)stream & ~4095), (uintptr_t)(code_size + 4095) & ~4095, pkey);
     }
     isFromJit = false;
 
     /* CHA: generate pkey, set pkey and permission with pkey_mprotect */
+    pkey_set(pkey, 0);
+    //printf("bh_memcpy_s: stream %p, code_size %p\n", stream, code_size);
     bh_memcpy_s(stream, code_size, code_buf, code_size);
     //if (pkey != 0) pkey_set(pkey, PKEY_DISABLE_WRITE);
-    
+
     pthread_mutex_unlock(&lock);
 
     cc->jitted_addr_begin = stream;

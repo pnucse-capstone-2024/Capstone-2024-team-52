@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux
+CMAKE_SOURCE_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux
+CMAKE_BINARY_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -160,84 +160,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named intrinsics_gen
-
-# Build rule for target.
-intrinsics_gen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 intrinsics_gen
-.PHONY : intrinsics_gen
-
-# fast build rule for target.
-intrinsics_gen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/intrinsics_gen.dir/build.make CMakeFiles/intrinsics_gen.dir/build
-.PHONY : intrinsics_gen/fast
-
-#=============================================================================
-# Target rules for targets named omp_gen
-
-# Build rule for target.
-omp_gen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 omp_gen
-.PHONY : omp_gen
-
-# fast build rule for target.
-omp_gen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/omp_gen.dir/build.make CMakeFiles/omp_gen.dir/build
-.PHONY : omp_gen/fast
-
-#=============================================================================
-# Target rules for targets named acc_gen
-
-# Build rule for target.
-acc_gen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 acc_gen
-.PHONY : acc_gen
-
-# fast build rule for target.
-acc_gen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/acc_gen.dir/build.make CMakeFiles/acc_gen.dir/build
-.PHONY : acc_gen/fast
-
-#=============================================================================
-# Target rules for targets named ARMTargetParserTableGen
-
-# Build rule for target.
-ARMTargetParserTableGen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ARMTargetParserTableGen
-.PHONY : ARMTargetParserTableGen
-
-# fast build rule for target.
-ARMTargetParserTableGen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ARMTargetParserTableGen.dir/build.make CMakeFiles/ARMTargetParserTableGen.dir/build
-.PHONY : ARMTargetParserTableGen/fast
-
-#=============================================================================
-# Target rules for targets named AArch64TargetParserTableGen
-
-# Build rule for target.
-AArch64TargetParserTableGen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AArch64TargetParserTableGen
-.PHONY : AArch64TargetParserTableGen
-
-# fast build rule for target.
-AArch64TargetParserTableGen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AArch64TargetParserTableGen.dir/build.make CMakeFiles/AArch64TargetParserTableGen.dir/build
-.PHONY : AArch64TargetParserTableGen/fast
-
-#=============================================================================
-# Target rules for targets named RISCVTargetParserTableGen
-
-# Build rule for target.
-RISCVTargetParserTableGen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RISCVTargetParserTableGen
-.PHONY : RISCVTargetParserTableGen
-
-# fast build rule for target.
-RISCVTargetParserTableGen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RISCVTargetParserTableGen.dir/build.make CMakeFiles/RISCVTargetParserTableGen.dir/build
-.PHONY : RISCVTargetParserTableGen/fast
 
 #=============================================================================
 # Target rules for targets named vmlib
@@ -1560,2843 +1482,1898 @@ _deps/asmjit-src/src/asmjit/x86/x86rapass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/_deps/asmjit-src/src/asmjit/x86/x86rapass.cpp.s
 .PHONY : _deps/asmjit-src/src/asmjit/x86/x86rapass.cpp.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.s.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.cpp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.cpp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.cpp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.cpp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.cpp.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o
 
 # target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.o
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i
 
 # target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.i
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
 
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s: home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s
 
 # target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s: home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s: home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.o: home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.i: home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.s: home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vmlib.dir/build.make CMakeFiles/vmlib.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libiwasm.dir/build.make CMakeFiles/libiwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.s
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o
-
-# target to build an object file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i
-
-# target to preprocess a source file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.i
-
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s: home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s
-
-# target to generate assembly for a file
-home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
-.PHONY : home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
+home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/iwasm.dir/build.make CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
+.PHONY : home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -4434,12 +3411,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... AArch64TargetParserTableGen"
-	@echo "... ARMTargetParserTableGen"
-	@echo "... RISCVTargetParserTableGen"
-	@echo "... acc_gen"
-	@echo "... intrinsics_gen"
-	@echo "... omp_gen"
 	@echo "... asmjit"
 	@echo "... iwasm"
 	@echo "... libiwasm"
@@ -4585,322 +3556,217 @@ help:
 	@echo "... _deps/asmjit-src/src/asmjit/x86/x86rapass.o"
 	@echo "... _deps/asmjit-src/src/asmjit/x86/x86rapass.i"
 	@echo "... _deps/asmjit-src/src/asmjit/x86/x86rapass.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_loader.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_application.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_memory.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_native.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_compiler.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_aot_file.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_compare.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_const.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_control.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_conversion.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_exception.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_function.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_gc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_memory.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_numberic.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_parametric.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_stringref.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_table.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_emit_variable.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_llvm_extra2.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_orc_extra2.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/aot_stack_frame_comp.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_access_lanes.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bit_shifts.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitmask_extracts.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bitwise_ops.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_bool_reductions.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_common.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_comparisons.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_construct_values.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_conversions.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_floating_point.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_int_arith.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_load_store.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/compilation/simd/simd_sat_int_arith.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_init.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_bitmap.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_leb128.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i"
-	@echo "... home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_intrinsic.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_loader.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_perf_map.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/aot_runtime.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/aot/arch/aot_reloc_x86_64.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/arch/invokeNative_em64_simd.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_application.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_blocking_op.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_c_api.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_exec_env.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_loader_common.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_memory.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_native.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_runtime_common.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/common/wasm_shared_memory.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/cg/x86-64/jit_codegen_x86_64.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_compare.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_const.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_control.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_conversion.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_exception.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_function.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_memory.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_numberic.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_parametric.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_table.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/fe/jit_emit_variable.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codecache.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_codegen.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_compiler.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_dump.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_frontend.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_ir.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit/jit_regalloc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_interp_classic.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_loader.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter/wasm_runtime.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-builtin/libc_builtin_wrapper.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/libc_wasi_wrapper.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/blocking_op.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/posix.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/random.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/libraries/libc-wasi/sandboxed-system-primitives/src/str.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_alloc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_gc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_hmu.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/ems/ems_kfc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/mem-alloc/mem_alloc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/libc-util/libc_errno.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_blocking_op.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_clock.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_file.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_malloc.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_memmap.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_sleep.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_socket.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_thread.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/common/posix/posix_time.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_init.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_bitmap.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_leb128.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.s"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.o"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.i"
+	@echo "... home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

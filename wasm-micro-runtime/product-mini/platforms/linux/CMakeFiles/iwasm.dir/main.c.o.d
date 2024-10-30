@@ -1,7 +1,7 @@
 CMakeFiles/iwasm.dir/main.c.o: \
- /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/main.c \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/main.c \
  /usr/include/stdc-predef.h \
- /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/../posix/main.c \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/../posix/main.c \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,7 +25,9 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -46,17 +48,22 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_platform.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/platform_common.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/platform/linux/platform_internal.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_platform.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/platform_common.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/platform/linux/platform_internal.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -105,6 +112,7 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
@@ -126,9 +134,11 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl2.h /usr/include/poll.h \
  /usr/include/x86_64-linux-gnu/sys/poll.h \
- /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/poll.h \
+ /usr/include/x86_64-linux-gnu/bits/poll2.h /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -148,6 +158,7 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
@@ -177,25 +188,25 @@ CMakeFiles/iwasm.dir/main.c.o: \
  /usr/include/x86_64-linux-gnu/sys/resource.h \
  /usr/include/x86_64-linux-gnu/bits/resource.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_rusage.h \
- /usr/include/setjmp.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/../../../config.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/platform_api_vmcore.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/platform_common.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/platform_api_extension.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/../platform/include/platform_wasi_types.h \
+ /usr/include/setjmp.h /usr/include/x86_64-linux-gnu/bits/setjmp2.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/../../../config.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/platform_api_vmcore.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/platform_common.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/platform_api_extension.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/../platform/include/platform_wasi_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdatomic.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_assert.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_platform.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_common.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_hashmap.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_list.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_log.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_queue.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/bh_vector.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/runtime_timer.h \
- /home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.h \
- /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/../../../core/iwasm/include/wasm_export.h \
- /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/../../../core/iwasm/include/lib_export.h \
- /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/../posix/../common/libc_wasi.c \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_assert.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_platform.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_common.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_hashmap.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_list.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_log.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_queue.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/bh_vector.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/runtime_timer.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/../../../core/iwasm/include/wasm_export.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/../../../core/iwasm/include/lib_export.h \
+ /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/../posix/../common/libc_wasi.c \
  /usr/include/dlfcn.h /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dl_find_object.h

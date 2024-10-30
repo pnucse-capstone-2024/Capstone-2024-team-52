@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
+CMAKE_SOURCE_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
+CMAKE_BINARY_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

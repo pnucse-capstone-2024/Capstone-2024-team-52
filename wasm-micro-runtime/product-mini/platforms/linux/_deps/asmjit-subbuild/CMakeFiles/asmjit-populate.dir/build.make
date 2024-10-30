@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
+CMAKE_SOURCE_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
+CMAKE_BINARY_DIR = /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild
 
 # Utility rule file for asmjit-populate.
 
@@ -77,63 +77,63 @@ CMakeFiles/asmjit-populate-complete: asmjit-populate-prefix/src/asmjit-populate-
 CMakeFiles/asmjit-populate-complete: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-build
 CMakeFiles/asmjit-populate-complete: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-install
 CMakeFiles/asmjit-populate-complete: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'asmjit-populate'"
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles
-	/usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/asmjit-populate-complete
-	/usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'asmjit-populate'"
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles
+	/usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/asmjit-populate-complete
+	/usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-done
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update:
 .PHONY : asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-build: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-build
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-configure: asmjit-populate-prefix/tmp/asmjit-populate-cfgcmd.txt
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-configure: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-configure
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-download: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-gitinfo.txt
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-download: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps && /usr/bin/cmake -P /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp/asmjit-populate-gitclone.cmake
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps && /usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps && /usr/bin/cmake -P /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp/asmjit-populate-gitclone.cmake
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps && /usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-download
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-install: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-install
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'asmjit-populate'"
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src
-	/usr/bin/cmake -E make_directory /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp
-	/usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'asmjit-populate'"
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src
+	/usr/bin/cmake -E make_directory /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp
+	/usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-mkdir
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-patch: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'asmjit-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'asmjit-populate'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-patch
+	/usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-patch
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update:
 .PHONY : asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-test: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E echo_append
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build && /usr/bin/cmake -E touch /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-test
 
 asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-update: asmjit-populate-prefix/src/asmjit-populate-stamp/asmjit-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'asmjit-populate'"
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src && /usr/bin/cmake -P /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp/asmjit-populate-gitupdate.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Performing update step for 'asmjit-populate'"
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src && /usr/bin/cmake -P /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/asmjit-populate-prefix/tmp/asmjit-populate-gitupdate.cmake
 
 asmjit-populate: CMakeFiles/asmjit-populate
 asmjit-populate: CMakeFiles/asmjit-populate-complete
@@ -157,6 +157,6 @@ CMakeFiles/asmjit-populate.dir/clean:
 .PHONY : CMakeFiles/asmjit-populate.dir/clean
 
 CMakeFiles/asmjit-populate.dir/depend:
-	cd /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/asmjit-populate.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild /home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-subbuild/CMakeFiles/asmjit-populate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/asmjit-populate.dir/depend
 

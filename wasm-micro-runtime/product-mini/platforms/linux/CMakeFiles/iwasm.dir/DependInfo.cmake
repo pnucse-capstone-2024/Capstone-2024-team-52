@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c" "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o" "gcc" "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o.d"
-  "/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c" "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o" "gcc" "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o.d"
-  "/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/main.c" "CMakeFiles/iwasm.dir/main.c.o" "gcc" "CMakeFiles/iwasm.dir/main.c.o.d"
+  "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c" "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o" "gcc" "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o.d"
+  "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c" "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o" "gcc" "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o.d"
+  "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/main.c" "CMakeFiles/iwasm.dir/main.c.o" "gcc" "CMakeFiles/iwasm.dir/main.c.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/vmlib.dir/DependInfo.cmake"
+  "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/vmlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

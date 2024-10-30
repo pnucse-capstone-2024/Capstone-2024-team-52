@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DASMJIT_NO_AARCH32 -DASMJIT_NO_AARCH64 -DASMJIT_NO_BUILDER -DASMJIT_NO_COMPILER -DASMJIT_NO_DEPRECATED -DASMJIT_NO_INTRINSICS -DASMJIT_NO_INTROSPECTION -DASMJIT_NO_JIT -DASMJIT_NO_LOGGING -DASMJIT_NO_TEXT -DASMJIT_NO_VALIDATION -DASMJIT_STATIC -DWASM_ENABLE_FAST_JIT=1 -DWASM_ENABLE_INTERP=1
 
-CXX_INCLUDES = -I/home/grad/wamr/wasm-micro-runtime/core/iwasm/interpreter -I/home/grad/wamr/wasm-micro-runtime/core/iwasm/fast-jit -I/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src/src
+CXX_INCLUDES = -I/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/interpreter -I/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/iwasm/fast-jit -I/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src/src
 
-CXX_FLAGS = -g -fPIC -fvisibility=hidden -Wall -Wextra -Wconversion -fno-math-errno -fno-threadsafe-statics -fno-semantic-interposition
+CXX_FLAGS = -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wall -Wextra -Wconversion -fno-math-errno -fno-threadsafe-statics -fno-semantic-interposition -O2 -fmerge-all-constants -fno-enforce-eh-specs
 

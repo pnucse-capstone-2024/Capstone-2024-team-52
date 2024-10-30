@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(asmjit-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/asmjit/asmjit.git" "GIT_TAG" "c1019f1642a588107148f64ba54584b0ae3ec8d1"
-                    SOURCE_DIR          "/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src"
-                    BINARY_DIR          "/home/grad/wamr/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build"
+                    SOURCE_DIR          "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-src"
+                    BINARY_DIR          "/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

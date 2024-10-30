@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o"
-  "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o.d"
-  "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o"
-  "CMakeFiles/iwasm.dir/home/grad/wamr/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o.d"
+  "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o"
+  "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_getopt.c.o.d"
+  "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o"
+  "CMakeFiles/iwasm.dir/home/grad/Capstone-2024-team-52/wasm-micro-runtime/core/shared/utils/uncommon/bh_read_file.c.o.d"
   "CMakeFiles/iwasm.dir/main.c.o"
   "CMakeFiles/iwasm.dir/main.c.o.d"
   "iwasm"
