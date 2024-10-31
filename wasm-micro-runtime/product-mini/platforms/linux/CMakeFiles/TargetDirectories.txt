@@ -1,0 +1,16 @@
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/vmlib.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/iwasm.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/libiwasm.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/edit_cache.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/rebuild_cache.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/list_install_components.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/install.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/install/local.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/CMakeFiles/install/strip.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/asmjit.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/edit_cache.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/rebuild_cache.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/list_install_components.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/install.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/install/local.dir
+/home/grad/Capstone-2024-team-52/wasm-micro-runtime/product-mini/platforms/linux/_deps/asmjit-build/CMakeFiles/install/strip.dir
