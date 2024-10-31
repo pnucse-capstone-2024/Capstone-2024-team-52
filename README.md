@@ -43,6 +43,6 @@
 ### 5. 팀 소개
 | 이름     | 학과            | 학번        | 연락처            | 역할 분담                                    |
 |----------|-----------------|-------------|-------------------|----------------------------------------------|
-| 신채원   | 정보컴퓨터공학부 |     |    |                |
+| 신채원   | 정보컴퓨터공학부 | 202155569   | sinchaewon@pusan.ac.kr | - WAMR 및 서버 환경 설정<br> - WAMR JIT Compiler의 코드 생성 및 저장 과정 분석<br> - JITed Code 보호 기술 설계 <br> - protection key 할당 알고리즘 작성 <br> - JIT Compiler을 기반으로 보호 기술 개발 |
 | 배명진   | 전기컴퓨터공학부 | 201924486   | ciment1010@pusan.ac.kr | - JIT Compiler의 compile 과정 추적<br> - Codespace 시작 주소 구하기<br> - V8의 취약점 및 threat model을 보여줄 방법 탐색<br> - WAMR Benchmark(Polybench) 설정<br> - WAMR의 실제 application 조사<br> - 기존 및 수정한 WAMR 시연을 위한 코드 구현 |
 | 정윤서   | 정보컴퓨터공학부 | 202155603   | 216yoon@naver.com | - V8 엔진에서의 pkey 할당 매커니즘 분석<br> - 메모리 권한 관리를 위한 알고리즘 삽입 지점 탐색<br> - Intel에서 미리 예약해서 사용하는 pkey 값 확인<br> - offset 값 랜덤으로 생성해서 더하는 코드 작성<br> - wamr Benchmark(CoreMark) 및 microbenchmark 수행 |
